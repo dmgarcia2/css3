@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Html5</title>
+<meta charset="utf-8">
+<style type="text/css">
+body {counter-reset: section;
+      font-size: 50%;}
+h1 {counter-reset: item;}
+h1::before {counter-increment: section;
+            content: "Chapter " counter(section) ": ";}
+h2::before {counter-increment: item;
+            content: counter(section) "." counter(item) " ";}
+</style>
+</head>
+<body>
+<h1>Html</h1>
+<h2>Html 4.0</h2>
+<h2>Xhtml 1.0</h2>
+<h2>Xhtml 5</h2>
+<h1>Scripts</h1>
+<h2>Javascript</h2>
+<h2>Dhtml</h2>
+<h1>Frameworks</h1>
+<h2>jQuery</h2>
+<h2>Dojo</h2>
+</body>
+</html>
