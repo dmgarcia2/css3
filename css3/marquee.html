@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Html5</title>
+<meta charset="utf-8">
+<style type="text/css">
+.marquee {
+    height: 45px;
+    border: 1px solid silver;
+    background-color: rgb(195, 215, 235);
+    line-height: 250%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.marquee.scroll {
+    -webkit-marquee-direction: auto;
+    -webkit-marquee-increment: medium;
+    -webkit-marquee-repetition: infinite;
+    -webkit-marquee-style: scroll;
+    -webkit-marquee-style: normal;
+    overflow-x: -webkit-marquee;
+}
+</style>
+</head>
+<body>
+<h1>Text in movement</h1>
+<div class="marquee scroll">
+Lorem ipsum dolor sit amet, consectetur adipisicing
+elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip
+ex ea commodo consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum.
+</div>
+</body>
+</html>
